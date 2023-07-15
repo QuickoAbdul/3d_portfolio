@@ -15,14 +15,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    agencebigmoustache,
+    ekidenskateshop,
+    hdmnetwork,
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +41,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Web Développeur",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile Développeur",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Dévelopeur",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Créateur de contenu",
       icon: creator,
     },
   ];
@@ -116,55 +115,45 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Stage - Développeur Web",
+      company_name: "Agence Big Moustache",
+      icon: agencebigmoustache,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Mai 2021 - Juin 2021",
+      techs: ["WordPress", "PHP", "SEO", "FileZilla"],
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Développement de site web avec WordPress.",
+        "Gestion des sauvegardes et de la maintenance des sites sur FTP.",
+        "Maintenance de sites web en PHP, débogages des mises à jour et des plugins.",
+        "SEO et référencement des sites webs pour une meilleur visibilité.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Stage - Développeur Full Stack",
+      company_name: "EKIDEN skateshop",
+      icon: ekidenskateshop,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Janvier 2022 - Mars 2022",
+      techs: ["Symfony", "Bootstrap", "SEO"],
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Développement d'un site web en Symfony avec une gestion d'administration.",
+        "Optimisation SEO et référencement du site pour une meilleur visibilité sur les moteurs de recherche.",
+        "Implémentation de la conception réactive Bootstrap et pour garantie la compatibilité entre les navigateurs.",
+        "Développement d'une gestion d'administration, des produits et des affiches mis en avant.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Développeur Full Stack",
+      company_name: "HDM Network",
+      icon: hdmnetwork,
+      iconBg: "#383E56",
+      date: "Mars 2023 - Juin 2023",
+      techs: ["Symfony", "React", "Aframe", "VueJS", "Bootstrap"],
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Développement de site Webs en scratch, React, VueJS, Aframe.",
+        "Collaborer avec des équipes interfonctionnelles comprenant des concepteurs, des SEO pour créer des sites de hautes qualités.",
+        "Mise en place des conceptions webs réactives et compatible entre les navigateurs.",
+        "Participation aux revues de code, à des CodinGames et fournir des commentaires constructifs.",
       ],
     },
   ];
@@ -172,26 +161,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Dans chacune de ses missions Abdul Rahman a effectué son travail avec professionnalisme, rigueur et de manière organisée.",
+      name: "Mousset Quentin",
+      designation: "CEO",
+      company: "HDM Network",
+      image: "",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "Le projet a été bien mené dans l’ensemble, le travail était bon.",
+      name: "Ahmed",
+      designation: "Chef de projet WEB",
+      company: "SkateShop",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "Après que Abdul Rahman ait optimisé notre site Web, notre trafic a augmenté. Nous ne les remercierons jamais assez !",
+      name: "Anonyme",
+      designation: "CEO",
+      company: "O Pain Soleil",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -200,35 +189,35 @@ import {
     {
       name: "Car Rent",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Boutique E-commerce permettant aux utilisateur de parcourir des produits, s'inscrire et passer des commandes. Intégration d'une gestion des produits, de la livraison et des commandes grâce à EasyAdmin.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "Symfony",
+          color: 'pink-text-gradient',
         },
         {
-          name: "mongodb",
+          name: "Bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "EasyAdmin",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/QuickoAbdul/Shop-TechGalaxy-Symfony",
     },
     {
       name: "Job IT",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Projet Gantt permettant d'utiliser un diagramme de Gantt pour la gestion de projet. Intégration d'une gestion des tâches, des projets. Possibilité de créer, de les modifier et de les supprimer",
       tags: [
         {
-          name: "react",
+          name: "Js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Php",
           color: "green-text-gradient",
         },
         {
