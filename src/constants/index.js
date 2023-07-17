@@ -4,21 +4,16 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
-    git,
     figma,
     docker,
     carrent,
     jobit,
     tripguide,
-    threejs,
     agencebigmoustache,
     ekidenskateshop,
     hdmnetwork,
@@ -72,16 +67,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -90,18 +77,6 @@ import {
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
     },
     {
       name: "figma",
@@ -165,7 +140,7 @@ import {
       name: "Mousset Quentin",
       designation: "CEO",
       company: "HDM Network",
-      image: "",
+      image: "https://randomuser.me/api/portraits/lego/1.jpg",
     },
     {
       testimonial:
@@ -181,23 +156,23 @@ import {
       name: "Anonyme",
       designation: "CEO",
       company: "O Pain Soleil",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: "https://randomuser.me/api/portraits/lego/1.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Tech Galaxy",
       description:
         "Boutique E-commerce permettant aux utilisateur de parcourir des produits, s'inscrire et passer des commandes. Intégration d'une gestion des produits, de la livraison et des commandes grâce à EasyAdmin.",
       tags: [
         {
           name: "Symfony",
-          color: 'pink-text-gradient',
+          color: 'white',
         },
         {
           name: "Bootstrap",
-          color: "green-text-gradient",
+          color: "violet-text-gradient",
         },
         {
           name: "EasyAdmin",
@@ -208,46 +183,42 @@ import {
       source_code_link: "https://github.com/QuickoAbdul/Shop-TechGalaxy-Symfony",
     },
     {
-      name: "Job IT",
+      name: "Projet Gantt",
       description:
-        "Projet Gantt permettant d'utiliser un diagramme de Gantt pour la gestion de projet. Intégration d'une gestion des tâches, des projets. Possibilité de créer, de les modifier et de les supprimer",
+        "Projet Gantt pour utiliser un diagramme de Gantt pour la gestion de projet. Intégration d'une gestion des tâches, des projets. Possibilité de créer, de les modifier et de les supprimer. Développement pour une intégration dans un DashBoard",
       tags: [
         {
           name: "Js",
-          color: "blue-text-gradient",
+          color: "yellow-text-gradient",
         },
         {
-          name: "Php",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "Html",
+          color: "orange-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/QuickoAbdul/Project-Gantt-Dashboard",
     },
     {
-      name: "Trip Guide",
+      name: "Python Script",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Python est l'un de mes langages de programmation préférés. Je développe souvent des scripts pour automatiser des tâches. Vous retrouverez ici tout mes scripts que j'ai pu développé et d'autres que je trouve très intéressant.",
       tags: [
         {
-          name: "nextjs",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Bash-Shell",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Git",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/QuickoAbdul/All-Python-Script",
     },
   ];
   
