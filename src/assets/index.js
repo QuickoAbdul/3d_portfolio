@@ -20,6 +20,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import csharp from "./tech/csharp.png";
+import bootstrap from "./tech/bootstrap.png";
+import mysql from "./tech/mysql.png";
+import python from "./tech/python.png";
+import symfony from "./tech/symfony.png";
+import nuxtjs from "./tech/nuxtjs.png";
+import wordpress from "./tech/wordpress.png";
 
 import hdmnetwork from "./company/hdmnetwork.png";
 import agencebigmoustache from "./company/agencebigmoustache.png";
@@ -51,6 +58,13 @@ export {
   tailwind,
   typescript,
   threejs,
+  csharp,
+  bootstrap,
+  mysql,
+  python,
+  symfony,
+  nuxtjs,
+  wordpress,
   hdmnetwork,
   ekidenskateshop,
   agencebigmoustache,

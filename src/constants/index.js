@@ -1,22 +1,32 @@
 import {
+    //Services
     mobile,
     backend,
     creator,
     web,
-    javascript,
+    //technologies
     html,
-    css,
     reactjs,
     tailwind,
     nodejs,
     figma,
     docker,
-    carrent,
-    jobit,
-    tripguide,
+    csharp,
+    bootstrap,
+    mysql,
+    python,
+    symfony,
+    nuxtjs, 
+    wordpress,
+    //experience
     agencebigmoustache,
     ekidenskateshop,
     hdmnetwork,
+    //projects
+    carrent,
+    jobit,
+    tripguide,
+
   } from "../assets";
   
   export const navLinks = [
@@ -59,12 +69,8 @@ import {
       icon: html,
     },
     {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
+      name: "csharp",
+      icon: csharp,
     },
     {
       name: "React JS",
@@ -73,6 +79,30 @@ import {
     {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Symfony",
+      icon: symfony,
+    },
+    {
+      name: "Nuxt JS",
+      icon: nuxtjs,
+    },
+    {
+      name: "WordPress",
+      icon: wordpress,
     },
     {
       name: "Node JS",
@@ -86,6 +116,7 @@ import {
       name: "docker",
       icon: docker,
     },
+    
   ];
   
   const experiences = [
@@ -144,15 +175,15 @@ import {
     },
     {
       testimonial:
-        "Le projet a été bien mené dans l’ensemble, le travail était bon.",
-      name: "Ahmed",
+        "Le projet a été bien mené dans l’ensemble, le travail était bon. Abdul Rahman a su s’adapter à nos besoins et a été force de proposition.",
+      name: "Anonyme",
       designation: "Chef de projet WEB",
       company: "SkateShop",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "Après que Abdul Rahman ait optimisé notre site Web, notre trafic a augmenté. Nous ne les remercierons jamais assez !",
+        "Après que Abdul Rahman ait optimisé notre site Web, notre trafic a augmenté. Nous ne le remercierons jamais assez !",
       name: "Anonyme",
       designation: "CEO",
       company: "O Pain Soleil",
