@@ -32,9 +32,17 @@ import hdmnetwork from "./company/hdmnetwork.png";
 import agencebigmoustache from "./company/agencebigmoustache.png";
 import ekidenskateshop from "./company/ekidenskateshop.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import techgalaxy from "./techgalaxy.png";
+import gantt from "./gantt.png";
+import pythonpng from "./python.png";
+import ecoprohabitat from "./ecoprohabitat.png";
+import eldenring from "./eldenring.png";
+import spaceinvaders from "./spaceinvaders.png";
+import aframe from "./aframe.png";
+import projetmvc from "./projetmvc.png";
+import newsmobile from "./newsmobile.png";
+import ekidenpng from "./ekiden.png";
+import gregoire from "./gregoire.png";
 
 export {
   logo,
@@ -68,7 +76,15 @@ export {
   hdmnetwork,
   ekidenskateshop,
   agencebigmoustache,
-  carrent,
-  jobit,
-  tripguide,
+  techgalaxy,
+  gantt,
+  pythonpng,
+  ecoprohabitat,
+  eldenring,
+  spaceinvaders,
+  aframe,
+  projetmvc,
+  newsmobile,
+  ekidenpng,
+  gregoire,
 };

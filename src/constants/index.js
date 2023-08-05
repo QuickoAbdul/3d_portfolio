@@ -23,9 +23,17 @@ import {
     ekidenskateshop,
     hdmnetwork,
     //projects
-    carrent,
-    jobit,
-    tripguide,
+    techgalaxy,
+    gantt,
+    pythonpng,
+    ecoprohabitat,
+    eldenring,
+    spaceinvaders,
+    aframe,
+    projetmvc,
+    newsmobile,
+    ekidenpng,
+    gregoire,
 
   } from "../assets";
   
@@ -149,7 +157,7 @@ import {
       ],
     },
     {
-      title: "Développeur Full Stack",
+      title: "Stage - Développeur Full Stack",
       company_name: "HDM Network",
       icon: hdmnetwork,
       iconBg: "#383E56",
@@ -199,7 +207,7 @@ import {
       tags: [
         {
           name: "Symfony",
-          color: 'white',
+          color: 'violet-text-gradient',
         },
         {
           name: "Bootstrap",
@@ -210,24 +218,28 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: techgalaxy,
       source_code_link: "https://github.com/QuickoAbdul/Shop-TechGalaxy-Symfony",
     },
     {
       name: "Projet Gantt",
       description:
-        "Projet Gantt pour utiliser un diagramme de Gantt pour la gestion de projet. Intégration d'une gestion des tâches, des projets. Possibilité de créer, de les modifier et de les supprimer. Développement pour une intégration dans un DashBoard",
+        "Projet Gantt pour utiliser un diagramme de Gantt pour la gestion de projet pour un service RH. Intégration d'une gestion des tâches, des projets. Possibilité de créer, de les modifier et de les supprimer. Développement pour une intégration dans un DashBoard",
       tags: [
         {
-          name: "Js",
+          name: "Javascript",
           color: "yellow-text-gradient",
         },
         {
           name: "Html",
           color: "orange-text-gradient",
         },
+        {
+          name: "PHP",
+          color: "violet-text-gradient",
+        },
       ],
-      image: jobit,
+      image: gantt,
       source_code_link: "https://github.com/QuickoAbdul/Project-Gantt-Dashboard",
     },
     {
@@ -248,9 +260,146 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: pythonpng,
       source_code_link: "https://github.com/QuickoAbdul/All-Python-Script",
     },
+    {
+      name: "EcoProHabitat",
+      description:
+        "Site sur WordPress à l'aide de différent plugins, NinjaForm, SEO, page contact et présentations des services. Gestion des sauvegardes et mise à jour des plugins.",
+      tags: [
+        {
+          name: "WordPress",
+          color: 'white',
+        },
+        {
+          name: "FileZilla",
+          color:'text-red-500',
+        },
+      ],
+      image: ecoprohabitat,
+      source_code_link: "https://github.com/QuickoAbdul/Shop-TechGalaxy-Symfony",
+    },
+    {
+      name: "API EldenRing",
+      description:
+        "Découverte d'une API sur un jeux-vidéo EldenRing, découverte de l'utilisation et l'exploitation d'une API en Scratch avec JavaScript et BootStrap. Fontionalité de pouvoir rechercher, trier et afficher les informations par rapport à la recherche.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: 'yellow-text-gradient',
+        },
+        {
+          name: "BootStrap",
+          color:'violet-text-gradient',
+        },
+      ],
+      image: eldenring,
+      source_code_link: "https://github.com/QuickoAbdul/API-Projet",
+    },
+    {
+      name: "Aframe ZombieShooter",
+      description:
+        "Développement d'un jeu de tir chronométré avec la bibliotèque AFrame en javascript. Le joueur doit éliminer le + rapidement les ennemis avant la fin du temps.Développement en JavaScript et HTML/CSS",
+      tags: [
+        {
+          name: "JavaScript",
+          color: 'yellow-text-gradient',
+        },
+        {
+          name: "HTML/CSS",
+          color:'blue-text-gradient',
+        },
+      ],
+      image: aframe,
+      source_code_link: "https://github.com/QuickoAbdul/aframe-zombieshooter",
+    },
+    {
+      name: "Projet MVC Boutique",
+      description:
+        "Simulation d'une boutique développer en PHP en MVC afin de faciliter le BackEnd et le FrontEnd de la boutique. Fonctionalités implémenter filtrage, affichage, Ajout, Modifier et supprimeribliotèque",
+      tags: [
+        {
+          name: "PHP",
+          color: 'violet-text-gradient',
+        },
+        {
+          name: "HTML/CSS",
+          color:'blue-text-gradient',
+        },
+      ],
+      image: projetmvc,
+      source_code_link: "https://github.com/QuickoAbdul/ProjetMVC",
+    },
+    {
+      name: "Projet NewsMobile React-Native ",
+      description:
+        "Application Live qui affiche les dernières actualités par rapport à la position exacte de l'utilisateur. Fonctionalités implémenter recherche des actualités par langue, par pays, par mots. Futur ajout : Enregistrement des actualités en favoris, partage des actualités, notifications, etc...",
+      tags: [
+        {
+          name: "React-Native",
+          color: 'blue-text-gradient',
+        },
+        {
+          name: "Android Studio",
+          color:'green-text-gradient',
+        },
+      ],
+      image: newsmobile,
+      source_code_link: "https://github.com/QuickoAbdul/ProjetReact",
+    },
+    {
+      name: "Ekiden SkateShop",
+      description:
+        "Développement d'un site vitrine/boutiqeu en Symfony. Fonctionalités implémenter ajout modifier supprimer des produits, filtrer, page contact, dernier post réseaux sociaux.",
+      tags: [
+        {
+          name: "Symfony",
+          color: 'violet-text-gradient',
+        },
+        {
+          name: "GitHub",
+          color:'grey-text-gradient',
+        },
+      ],
+      image: ekidenpng,
+      source_code_link: "https://github.com/QuickoAbdul/ProjetReact",
+    },
+    {
+      name: "Grégoire Agencement",
+      description:
+        "Développement d'un site WordPress pour présenter les services d'une entreprise de décoration. Gestion des utilisateurs et des droits d'accès. Gestion des sauvegardes et des mises à jour des plugins.",
+      tags: [
+        {
+          name: "WordPress",
+          color: 'white-text-gradient',
+        },
+        {
+          name: "FileZilla",
+          color:'text-red-500',
+        },
+      ],
+      image: gregoire,
+      source_code_link: "https://github.com/QuickoAbdul",
+    },
+    {
+      name: "SpaceInvader Custom",
+      description:
+        "Développement d'un jeu arcade SpaceInvader version customiser pour un projet d'école. Développement en JavaScript et HTML/CSS.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: 'yellow-text-gradient',
+        },
+        {
+          name: "HTML/CSS",
+          color:'blue-text-gradient',
+        },
+      ],
+      image: spaceinvaders,
+      source_code_link: "https://github.com/QuickoAbdul/Custom_Spaceinvader",
+    },
   ];
+  
   
   export { services, technologies, experiences, testimonials, projects };
