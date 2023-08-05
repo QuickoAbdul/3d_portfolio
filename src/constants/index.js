@@ -62,7 +62,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Dévelopeur",
+      title: "Backend Développeur",
       icon: backend,
     },
     {
