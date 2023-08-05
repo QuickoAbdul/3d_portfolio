@@ -363,7 +363,7 @@ import {
         },
       ],
       image: ekidenpng,
-      source_code_link: "https://github.com/QuickoAbdul/ProjetReact",
+      source_code_link: "https://ekidenskateshop.com/",
     },
     {
       name: "Grégoire Agencement",
