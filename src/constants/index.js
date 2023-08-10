@@ -281,21 +281,38 @@ import {
       source_code_link: "https://github.com/QuickoAbdul/Shop-TechGalaxy-Symfony",
     },
     {
-      name: "API EldenRing",
+      name: "Ekiden SkateShop",
       description:
-        "Découverte d'une API sur un jeux-vidéo EldenRing, découverte de l'utilisation et l'exploitation d'une API en Scratch avec JavaScript et BootStrap. Fontionalité de pouvoir rechercher, trier et afficher les informations par rapport à la recherche.",
+        "Développement d'un site vitrine/boutiqeu en Symfony. Fonctionalités implémenter ajout modifier supprimer des produits, filtrer, page contact, dernier post réseaux sociaux.",
       tags: [
         {
-          name: "JavaScript",
-          color: 'yellow-text-gradient',
+          name: "Symfony",
+          color: 'violet-text-gradient',
         },
         {
-          name: "BootStrap",
-          color:'violet-text-gradient',
+          name: "GitHub",
+          color:'grey-text-gradient',
         },
       ],
-      image: eldenring,
-      source_code_link: "https://github.com/QuickoAbdul/API-Projet",
+      image: ekidenpng,
+      source_code_link: "https://ekidenskateshop.com/",
+    },
+    {
+      name: "Grégoire Agencement",
+      description:
+        "Développement d'un site WordPress pour présenter les services d'une entreprise de décoration. Gestion des utilisateurs et des droits d'accès. Gestion des sauvegardes et des mises à jour des plugins.",
+      tags: [
+        {
+          name: "WordPress",
+          color: 'white-text-gradient',
+        },
+        {
+          name: "FileZilla",
+          color:'text-red-500',
+        },
+      ],
+      image: gregoire,
+      source_code_link: "https://github.com/QuickoAbdul",
     },
     {
       name: "Aframe ZombieShooter",
@@ -349,38 +366,21 @@ import {
       source_code_link: "https://github.com/QuickoAbdul/ProjetReact",
     },
     {
-      name: "Ekiden SkateShop",
+      name: "API EldenRing",
       description:
-        "Développement d'un site vitrine/boutiqeu en Symfony. Fonctionalités implémenter ajout modifier supprimer des produits, filtrer, page contact, dernier post réseaux sociaux.",
+        "Découverte d'une API sur un jeux-vidéo EldenRing, découverte de l'utilisation et l'exploitation d'une API en Scratch avec JavaScript et BootStrap. Fontionalité de pouvoir rechercher, trier et afficher les informations par rapport à la recherche.",
       tags: [
         {
-          name: "Symfony",
-          color: 'violet-text-gradient',
+          name: "JavaScript",
+          color: 'yellow-text-gradient',
         },
         {
-          name: "GitHub",
-          color:'grey-text-gradient',
+          name: "BootStrap",
+          color:'violet-text-gradient',
         },
       ],
-      image: ekidenpng,
-      source_code_link: "https://ekidenskateshop.com/",
-    },
-    {
-      name: "Grégoire Agencement",
-      description:
-        "Développement d'un site WordPress pour présenter les services d'une entreprise de décoration. Gestion des utilisateurs et des droits d'accès. Gestion des sauvegardes et des mises à jour des plugins.",
-      tags: [
-        {
-          name: "WordPress",
-          color: 'white-text-gradient',
-        },
-        {
-          name: "FileZilla",
-          color:'text-red-500',
-        },
-      ],
-      image: gregoire,
-      source_code_link: "https://github.com/QuickoAbdul",
+      image: eldenring,
+      source_code_link: "https://github.com/QuickoAbdul/API-Projet",
     },
     {
       name: "SpaceInvader Custom",
