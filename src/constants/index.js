@@ -133,7 +133,7 @@ import {
       company_name: "Agence Big Moustache",
       icon: agencebigmoustache,
       iconBg: "#383E56",
-      date: "Mai 2021 - Juin 2021",
+      date: "Avril 2021 - Juin 2021",
       techs: ["WordPress", "PHP", "SEO", "FileZilla"],
       points: [
         "Développement de site web avec WordPress.",
