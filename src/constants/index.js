@@ -278,7 +278,7 @@ import {
         },
       ],
       image: ecoprohabitat,
-      source_code_link: "https://github.com/QuickoAbdul/Shop-TechGalaxy-Symfony",
+      source_code_link: "https://ecoprohabitat.fr/",
     },
     {
       name: "Ekiden SkateShop",

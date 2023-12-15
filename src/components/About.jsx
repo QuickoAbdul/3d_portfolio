@@ -48,10 +48,9 @@ const About = () => {
       <motion.p 
       variants={fadeIn("", "", 0.1, 1)}
       className='mt-4 text-secondary text-[17px] max-w--3xl leading-[30px]'>
-        Je suis Abdul Rahman, diplomé d'un bac +3 en Développement Web et Mobile, je suis passionné par le développement web et mobile, je me
+        Je suis Abdul Rahman, actuellement en Master of Business Administration en Développeur FullStack, je suis passionné par le développement web et mobile, je me
         lance toujours des défis pour améliorer mes compétences et mes connaissances afin de pouvoir réaliser des projets de qualité.
-        Passionné de rester à jour avec les dernières tendances je développe mes applications avec Symfony et NextJS. 
-        J'apprend actuellement React Native pour pouvoir développer des applications mobiles et NodeJS pour le BackEnd.
+        Passionné de rester à jour avec les dernières tendances je développe mes applications avec VueJs/Laravel et Flutter. 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
