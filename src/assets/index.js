@@ -31,6 +31,7 @@ import wordpress from "./tech/wordpress.png";
 import hdmnetwork from "./company/hdmnetwork.png";
 import agencebigmoustache from "./company/agencebigmoustache.png";
 import ekidenskateshop from "./company/ekidenskateshop.png";
+import ekna from "./company/ekna.png";
 
 import techgalaxy from "./techgalaxy.png";
 import gantt from "./gantt.png";
@@ -74,6 +75,7 @@ export {
   nuxtjs,
   wordpress,
   hdmnetwork,
+  ekna,
   ekidenskateshop,
   agencebigmoustache,
   techgalaxy,

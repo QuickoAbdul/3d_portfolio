@@ -22,6 +22,7 @@ import {
     agencebigmoustache,
     ekidenskateshop,
     hdmnetwork,
+    ekna,
     //projects
     techgalaxy,
     gantt,
@@ -168,6 +169,19 @@ import {
         "Collaborer avec des équipes interfonctionnelles comprenant des concepteurs, des SEO pour créer des sites de hautes qualités.",
         "Mise en place des conceptions webs réactives et compatible entre les navigateurs.",
         "Participation aux revues de code, à des CodinGames et fournir des commentaires constructifs.",
+      ],
+    },
+    {
+      title: "Alternance - Ekna",
+      company_name: "Ekna",
+      icon: ekna,
+      iconBg: "#383E56",
+      date: "Septembre 2023 - Juin 2024",
+      techs: ["Flutter", "VueJs","Laravel", "Figma", "Docker"],
+      points: [
+        "Développement du Dashboard pour l'administration du projet [Laravel/VueJs]",
+        "Amélioration et ajout de fonctionnalités sur l'application Mobile [Flutter]",
+        "Résolution des bug sur le site web et l'application mobile [API Laravel / Vuejs / Flutter]",
       ],
     },
   ];
